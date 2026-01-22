@@ -19,7 +19,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('stopwords')
 nltk.download('punkt')  
 
-data = pd.read_csv('C:/Users/Fadime ERBAY/Desktop/WORK..py/ileripyhton/training.1600000.processed.noemoticon.csv', header=None, encoding='latin1')
+data = pd.read_csv('data/training.1600000.processed.noemoticon.csv', header=None, encoding='latin1')
 data.columns = ['sentiment', 'id', 'date', 'query', 'user', 'text'] 
 data.drop(['query'], axis=1, inplace=True) 
 data.dropna(subset=['text', 'sentiment'], inplace=True)

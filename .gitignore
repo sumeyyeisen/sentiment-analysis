@@ -1,0 +1,33 @@
+# Veri dosyaları
+data/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistem
+.DS_Store
+Thumbs.db
+
+# Model dosyaları
+*.pkl
+*.h5
+*.pt
+*.pth
