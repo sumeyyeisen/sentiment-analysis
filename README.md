@@ -35,7 +35,7 @@ Türkçe Twitter verisi üzerinde makine öğrenmesi ile duygu analizi projesi. 
 ## Kurulum
 ```bash
 # Repository'yi klonlayın
-git clone https://github.com/fadimeyy/sentiment-analysis.git
+git clone https://github.com/sumeyyeisen/sentiment-analysis.git
 cd sentiment-analysis
 
 # Gerekli kütüphaneleri yükleyin
